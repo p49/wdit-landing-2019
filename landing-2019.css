@@ -1,0 +1,335 @@
+* {
+	box-sizing: border-box;
+}
+
+
+html {
+	height: 100%;	
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+	flex-direction: column;
+	flex: 3;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+  position: relative;
+  bottom: 4px;
+	margin, padding: 0;
+	background-image: url("../images/science-lab-solo-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: /* dodgerblue */	peru;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 3.2rem;
+}
+
+
+h1 {
+	font-size: 1.9rem;
+/* 	margin: -20px 0 8px 0px; */
+	line-height: 2px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+
+h3 {
+	font-size: 1.4rem;
+	margin-top: 2.8px;
+}
+
+
+hr {
+	width: 7.5rem;
+	margin-top: -20px;
+	margin-bottom: 15px;
+	height: 1px;
+	background-color: #fff;
+	border: none;
+}
+
+
+.btn {
+ 	background-color: crimson;  /* #3E927A; */
+	padding: .9rem .6rem;
+	margin-top: 400px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+
+.btn:hover {
+ 	background-color: firebrick;/* #73BAA1; */   /* #73BAA1; */  /* #216653 */
+	color: #eee;
+	font-weight: 700;
+}
+
+
+/*======================
+	  MEDIA QUERIES
+=======================*/
+
+
+
+/****************************
+	  Starting at 375 pixels
+*****************************/
+
+/*
+@media (min-width: 375px) {
+	
+	h1 {
+		font-size: 2.3rem;
+		margin-top: 8px;
+	}
+	
+	
+	h3 {
+		font-size: 1.6rem;
+	}
+	
+	
+	.btn {
+		font-size: 1.5rem;
+		margin-top: 320px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+		font-size: 1.5rem;
+		margin-top: 320px;
+		padding: 1rem .9rem;
+	}	
+}
+*/
+
+	
+/****************************
+	  Starting at 414 pixels
+*****************************/
+
+@media (min-width: 414px) {
+
+/*
+	body {
+		background-image: url("");
+	}
+*/
+	
+	h1 {
+		font-size: 2.5rem;
+		margin-top: 8px;
+	}
+	
+	
+	h3 {
+		font-size: 1.8rem;
+	}
+	
+	
+	hr {
+		width: 9rem;
+		margin-top: -32px;
+	}
+	
+	
+	.btn {
+		font-size: 1.5rem;
+		margin-top: 385px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+		background-color: firebrick;
+		font-weight: 700;
+	}
+}
+
+
+/****************************
+	  Starting at 448 pixels
+*****************************/
+
+@media (min-width: 448px) and (max-width: 641px) {
+	
+	h1 {
+		font-size: 2.7rem;
+ 		margin-top: 10px; 
+	}
+	
+	h3 {
+		font-size: 2rem;
+	}
+	
+	hr {
+		width: 9.7rem;
+		margin-top: -30px;
+	}
+	
+	.btn {
+		font-size: 1.4rem;
+		margin-top: 395px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+		background-color: firebrick;
+		font-size: 700;
+	}
+}
+
+
+/****************************
+	  Starting at 561 pixels
+*****************************/
+
+@media (min-width: 561px) {
+	
+		
+	.btn {
+		font-size: 1.4rem;
+		margin-top: 365px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+		background-color: firebrick;
+		font-size: 700;
+	}
+}
+
+
+/****************************
+	  Starting at 642 pixels
+*****************************/
+
+@media (min-width: 642px) and (max-width: 767px) {
+	
+		
+	.btn {
+		font-size: 1.4rem;
+		margin-top: 460px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+		background-color: firebrick;
+		font-size: 700;
+	}
+}
+
+
+
+/****************************
+	  Starting at 768 pixels
+*****************************/
+
+@media (min-width: 768px) {
+	
+	body {
+		background-image: url("../images/science-lab.jpg");
+	}
+	
+	h1 {
+		font-size: 3.8rem;
+		margin-top: 17px;
+	}
+	
+	h3 {
+		font-size: 2rem;
+	}
+	
+	hr {
+		margin-top: -32px;
+		width: 9.5rem;
+	}
+	
+	.btn {
+		font-size: 1.4rem;
+		margin-top: 350px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+		background-color: firebrick;
+		font-weight: 700;
+	}
+}
+
+
+/****************************
+	  Starting at 991 pixels
+*****************************/
+
+
+@media (min-width: 991px) {
+	
+	h1 {
+		font-size: 5rem;
+		margin-top: 8px;
+	}
+	
+	
+	h3 {
+		font-size: 2rem;
+		margin-top: 40px;
+	}
+	
+	
+	hr {
+		margin-top: -30px;
+		width: 10rem;
+	}
+	
+	
+	.btn {
+		font-size: 1.5rem;
+		margin-top: 320px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+	 	background-color: crimson; /* #73BAA1; */   /* #73BAA1; */  /* #216653 */
+		font-weight: 700;
+	}
+}
+
+			
+/****************************
+	  Starting at 1200 pixels
+*****************************/
+
+@media (min-width: 1200px) {
+	
+	h1 {
+		font-size: 5rem;
+/* 		margin-top: 8px; */
+	}
+	
+	
+	h3 {
+		font-size: 1.6rem;
+	}
+	
+	
+	.btn {
+		font-size: 1.5rem;
+		margin-top: 320px;
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+	 	background-color: firebrick;    /*  #73BAA1;  #73BAA1;  #216653 */
+		font-weight: 700;
+	}
+}
