@@ -15,8 +15,7 @@ body {
 	//background-image: url("../images/science-lab-solo-1.jpg");
 	background-image: url("../images/science-lab.jpg");
 	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
-	height: 100%;	
+	background-size: cover;	
 }
 
 .wrapper {
