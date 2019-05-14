@@ -2,11 +2,8 @@
 	box-sizing: border-box;
 }
 
-
 html {
-	//height: 100%;	
-	height: 100vh;
-	width: 100vw;
+	height: 100%;	
 }
 
 body {
@@ -300,7 +297,6 @@ footer {
 	footer {
 		top: 270px;
 	}
-	
 }
 
 
@@ -340,5 +336,4 @@ footer {
 	footer {
 		top: 300px;
 	}
-   
-}
+ }
