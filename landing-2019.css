@@ -89,15 +89,15 @@ footer {
 =======================*/
 
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
 	
 	h1 {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 	
 	hr {
 		width: 8.5rem;
-		margin-top: -25px;
+		margin-top: -30px;
 		margin-bottom: 15px;
 		height: 1px;
 		background-color: #fff;
@@ -105,14 +105,18 @@ footer {
 	}
 
 	.btn {
-		margin-top: 390px;
+		margin-top: 590px;
+	}
+	
+	footer {
+		letter-spacing: 1px;
+		font-weight: 500;
 	}
 }
 	
 
 @media (min-width: 414px) {
 
-	
 	h1 {
 		font-size: 2.5rem;
 		margin-top: 8px;
@@ -128,12 +132,15 @@ footer {
 	}
 	
 	.btn {
-		margin-top: 305px;
+		margin-top: 205px;
 	}
 	
 	.btn:hover {
 		background-color: firebrick;
 		font-weight: 700;
+	}
+	footer {
+		top: 185px;
 	}
 }
 
@@ -157,7 +164,7 @@ footer {
 	
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 325px; 
+		margin-top: 245px; 
 		padding: 1rem .9rem;
 	}
 	
