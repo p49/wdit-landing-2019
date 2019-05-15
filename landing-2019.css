@@ -28,7 +28,7 @@ body {
 
 
 h1 {
-	font-size: 2.1rem;
+	font-size: 1rem; /*was 2.1*/
 	line-height: 2px;
 	margin-top: -10px;
 	margin-bottom: 30px;
@@ -89,15 +89,16 @@ footer {
 =======================*/
 
 
-@media (min-width: 320px) {
+@media (min-width: 375px) {
 	
 	h1 {
-		font-size: 1.5rem;
+		font-size: 1rem;
+		font-weight: 500;
 	}
 	
 	hr {
 		width: 8.5rem;
-		margin-top: -30px;
+		margin-top: -25px;
 		margin-bottom: 15px;
 		height: 1px;
 		background-color: #fff;
@@ -105,18 +106,14 @@ footer {
 	}
 
 	.btn {
-		margin-top: 590px;
-	}
-	
-	footer {
-		letter-spacing: 1px;
-		font-weight: 500;
+		margin-top: 390px;
 	}
 }
 	
 
 @media (min-width: 414px) {
 
+	
 	h1 {
 		font-size: 2.5rem;
 		margin-top: 8px;
@@ -132,15 +129,12 @@ footer {
 	}
 	
 	.btn {
-		margin-top: 205px;
+		margin-top: 485px; /* was 305px -- check to see if this fits */
 	}
 	
 	.btn:hover {
 		background-color: firebrick;
 		font-weight: 700;
-	}
-	footer {
-		top: 185px;
 	}
 }
 
@@ -164,7 +158,7 @@ footer {
 	
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 245px; 
+		margin-top: 425px; /* was 325px*/
 		padding: 1rem .9rem;
 	}
 	
@@ -217,7 +211,7 @@ footer {
 		
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 300px;  /* was 400px*/
+		margin-top: 200px;  /* was 400px*/
 		padding: 1rem .9rem;
 	}
 	
