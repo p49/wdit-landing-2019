@@ -88,6 +88,26 @@ footer {
 	  MEDIA QUERIES 
 =======================*/
 
+@media (min-width: 320px) {
+	
+	hr {
+		width: 8.5rem;
+		margin-top: -25px;
+		margin-bottom: 15px;
+		height: 1px;
+		background-color: #fff;
+		border: none;
+	}
+
+	.btn {
+		margin-top: 390px;
+	}
+}
+
+
+
+
+
 
 @media (min-width: 375px) {
 	
