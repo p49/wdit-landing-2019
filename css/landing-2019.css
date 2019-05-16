@@ -21,8 +21,11 @@ body {
 .wrapper {
 	width: 100%;
 	padding-top: 3.2rem;
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+	flex-direction: column;
 	text-align: center;
-
 }
 
 
