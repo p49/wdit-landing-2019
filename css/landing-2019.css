@@ -112,7 +112,7 @@ footer {
 @media (min-width: 375px) {
 	
 	h1 {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 		margin-top: 8px;
 	}
 	
@@ -172,7 +172,7 @@ footer {
 @media (min-width: 448px) /* and (max-width: 641px) */ {
 	
 	h1 {
-		font-size: 1.8rem;
+		font-size: 2.8rem;
  		margin-top: 10px; 
 	}
 	
