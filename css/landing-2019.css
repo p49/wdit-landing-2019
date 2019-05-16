@@ -19,10 +19,8 @@ body {
 }
 
 .wrapper {
-	display: flex;
-	justify-content: stretch;
-	align-items: center;
-	flex-direction: column;
+	display: grid;
+	place-items:center;
 	padding-top: 3.2rem;
 }
 
