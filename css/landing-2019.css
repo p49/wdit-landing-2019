@@ -205,6 +205,9 @@ footer {
 
 @media (min-width: 561px) {
 		
+	h1 {
+		font-size: 2rem;
+	
 	.btn {
 		font-size: 1.8rem;
 		margin-top: 340px;
