@@ -78,8 +78,8 @@ footer {
 	top: 80px;
 	color: #fff;
 	font-weight: bold;
-	letter-spacing: 2px;
-	font-size: 20px;
+	letter-spacing: 1px;
+	font-size: 17px;
 	text-shadow: 1.5px 1.2px 2px rgba(0,0,0,0.5); 
 }
 
@@ -87,27 +87,6 @@ footer {
 /*======================
 	  MEDIA QUERIES 
 =======================*/
-
-@media (min-width: 320px) {
-	
-	hr {
-		width: 8.5rem;
-		margin-top: -25px;
-		margin-bottom: 15px;
-		height: 1px;
-		background-color: #fff;
-		border: none;
-	}
-
-	.btn {
-		margin-top: 390px;
-	}
-}
-
-
-
-
-
 
 @media (min-width: 375px) {
 	
@@ -205,8 +184,9 @@ footer {
 
 @media (min-width: 561px) {
 		
-	h1 {
+	 h1 {
 		font-size: 2rem;
+	}
 	
 	.btn {
 		font-size: 1.8rem;
@@ -226,7 +206,7 @@ footer {
 	
 	
 	footer {
-		top: 105px;
+		top: 85px;
 	}
 }
 
