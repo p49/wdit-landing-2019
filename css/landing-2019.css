@@ -29,7 +29,7 @@ body {
 
 
 h1 {
-	font-size: 2.1rem; 
+	font-size: 1.8rem; 
 	line-height: 2px;
 	margin-top: -10px;
 	margin-bottom: 30px;
@@ -187,12 +187,12 @@ footer {
 @media (min-width: 561px) {
 		
 	 h1 {
-		font-size: 2.2rem;
+		font-size: 2.3rem;
 	}
 	
 	.btn {
 		font-size: 1.8rem;
-		margin-top: 380px;
+		margin-top: 580px;
 		padding: 1rem .9rem;
 	}
 	
