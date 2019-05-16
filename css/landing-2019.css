@@ -28,7 +28,7 @@ body {
 
 
 h1 {
-	font-size: 1rem; /*was 2.1*/
+	font-size: 1.8rem; 
 	line-height: 2px;
 	margin-top: -10px;
 	margin-bottom: 30px;
@@ -37,7 +37,7 @@ h1 {
 }
 
 h3 {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	margin-top: 2.5px;
 	color: aliceblue; 
 	text-shadow: 2px 3px 1px rgba(0,0,0,0.5); 
@@ -92,22 +92,27 @@ footer {
 @media (min-width: 375px) {
 	
 	h1 {
-		font-size: 1rem;
-		font-weight: 500;
+		font-size: 2.5rem;
+		margin-top: 8px;
 	}
 	
 	hr {
-		width: 8.5rem;
-		margin-top: -25px;
-		margin-bottom: 15px;
-		height: 1px;
-		background-color: #fff;
-		border: none;
+		width: 7.2rem; /*8.5*/
+		margin-top: -30px;
 	}
 
 	.btn {
-		margin-top: 390px;
+		margin-top: 320px;
 	}
+	
+	.btn:hover {
+		background-color: firebrick;
+		font-weight: 700;
+	}
+	
+	footer {
+		top: 100px;
+		
 }
 	
 
@@ -124,17 +129,22 @@ footer {
 	}
 	
 	hr {
-		width: 10rem;
+		width: 7.2rem;
 		margin-top: -30px;
 	}
 	
 	.btn {
-		margin-top: 485px; /* was 305px -- check to see if this fits */
+		margin-top: 330px; /* was 305px -- check to see if this fits */
 	}
 	
 	.btn:hover {
 		background-color: firebrick;
 		font-weight: 700;
+	}
+	
+	footer {
+		top: 150px;
+		letter-spacing: 1px;
 	}
 }
 
@@ -158,7 +168,26 @@ footer {
 	
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 425px; /* was 325px*/
+		margin-top: 350px; /* was 325px*/
+		padding: 1rem .9rem;
+	}
+	
+	.btn:hover {
+		background-color: firebrick;
+		font-size: 700;
+	}
+	
+	footer {
+		top: 80px;
+	}
+}
+
+
+@media (min-width: 561px) {
+		
+	.btn {
+		font-size: 1.4rem;
+		margin-top: 400px;
 		padding: 1rem .9rem;
 	}
 	
@@ -169,25 +198,6 @@ footer {
 	
 	footer {
 		top: 165px;
-	}
-}
-
-
-@media (min-width: 561px) {
-		
-	.btn {
-		font-size: 1.4rem;
-		margin-top: 365px;
-		padding: 1rem .9rem;
-	}
-	
-	.btn:hover {
-		background-color: firebrick;
-		font-size: 700;
-	}
-	
-	footer {
-		top: 140px;
 	}
 }
 
@@ -211,7 +221,7 @@ footer {
 		
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 200px;  /* was 400px*/
+		margin-top: 400px;  /* was 400px*/
 		padding: 1rem .9rem;
 	}
 	
@@ -221,7 +231,7 @@ footer {
 	}
 	
 	footer {
-		top: 80px; /* was 100px*/
+		top: 180px; /* was 100px*/
 	}
 }
 
@@ -263,7 +273,7 @@ footer {
 	}
 	
 	footer {
-		top: 110px; /* was 130px */
+		top: 210px; /* was 130px */
 	}
 }
 
@@ -286,8 +296,8 @@ footer {
 	
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 3
-		50px; /*was 150px */
+		position: relative;
+		top: -150px; /*top: 15px */
 		padding: .9rem .7rem;
 	}
 	
@@ -297,7 +307,7 @@ footer {
 	}
 	
 	footer {
-		top: 270px; /* was 370px */
+		top: 130px; /* was 370px */
 	}
 }
 
@@ -326,7 +336,7 @@ footer {
 	
 	.btn {
 		font-size: 1.5rem;
-		margin-top: 105px;
+		margin-top: 305px;
 		padding: 1rem .9rem;
 	}
 	
@@ -336,6 +346,6 @@ footer {
 	}
 	
 	footer {
-		top: 300px;
+		top: 180px;
 	}
  }
