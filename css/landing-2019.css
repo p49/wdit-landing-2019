@@ -61,7 +61,8 @@ hr {
  	background-color: crimson; 
  	background: linear-gradient(crimson, firebrick);
 	padding: .9rem .6rem;
-	margin-top: 350px;
+	position: relative;
+	top: 450px;
 	border-radius: 5px;
 	text-decoration: none;
 	color: #fff;
