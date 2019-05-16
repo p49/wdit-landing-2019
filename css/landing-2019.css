@@ -216,6 +216,12 @@ footer {
 		font-size: 700;
 	}
 	
+	hr {
+		width: 9.2rem;
+		margin-top: -28px;
+	}
+	
+	
 	footer {
 		top: 105px;
 	}
