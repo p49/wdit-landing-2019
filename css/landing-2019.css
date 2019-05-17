@@ -48,7 +48,7 @@ h3 {
 }
 
 hr {
-	width: 7rem;
+	width: 6rem;
 	margin-top: -20px;
 	margin-bottom: 15px;
 	height: 1px;
@@ -190,12 +190,12 @@ footer {
 @media (min-width: 561px) {
 		
 	 h1 {
-		font-size: 2.3rem;
+		font-size: 3rem;
 	}
 	
 	.btn {
 		font-size: 1.8rem;
-		margin-top: 580px;
+		margin-top: 450px;
 		padding: 1rem .9rem;
 	}
 	
@@ -205,13 +205,13 @@ footer {
 	}
 	
 	hr {
-		width: 9.2rem;
-		margin-top: -28px;
+		width: 9.5rem;
+		margin-top: -30px;
 	}
 	
 	
 	footer {
-		top: 100px;
+		top: 80px;
 	}
 }
 
