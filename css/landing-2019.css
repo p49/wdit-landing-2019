@@ -98,6 +98,7 @@ footer {
 	h1 {
 		font-size: 1.5rem;
 		margin-top: 8px;
+		color: yellow;
 	}
 	
 	hr {
@@ -199,6 +200,7 @@ footer {
 		font-size: 1.8rem;
 		margin-top: 450px;
 		padding: 1rem .9rem;
+		color: orange;
 	}
 	
 	.btn:hover {
@@ -224,6 +226,7 @@ footer {
 	h1 {
 		font-size: 3.2rem;
  		margin-top: 10px; 
+		color: purple;
 	}
 	
 	h3 {
@@ -264,6 +267,7 @@ footer {
 		font-size: 3.8rem;
 		margin-top: 0px;
 		font-weight: 700;
+		color: lightseagreen;
 	}
 	
 	h3 {
