@@ -194,6 +194,7 @@ footer {
 		
 	 h1 {
 		font-size: 3rem;
+		 color: yellow;
 	}
 	
 	.btn {
@@ -215,7 +216,7 @@ footer {
 	
 	
 	footer {
-		top: 80px;
+		top: 100px;
 	}
 }
 
