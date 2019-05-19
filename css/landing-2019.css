@@ -127,7 +127,7 @@ footer {
 	h1 {
 		font-size: 2.2rem;
 		margin-top: 8px;
-		color: dodgerblue;
+		color: blue;
 	}
 	
 	h3 {
@@ -216,7 +216,7 @@ footer {
 	
 	
 	footer {
-		top: 150px;
+		top: 130px;
 	}
 }
 
