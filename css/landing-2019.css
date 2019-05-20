@@ -96,6 +96,10 @@ footer {
 
 @media (min-width: 375px) {
 	
+	body {
+		height: 100vh;
+	}
+	
 	h1 {
 		font-size: 2.1rem;
 		margin-top: 8px;
@@ -108,7 +112,7 @@ footer {
 	}
 
 	.btn {
-		top: 10em/* 250px */;
+		top: 12em/* 250px */;
 	}
 	
 	.btn:hover {
@@ -124,9 +128,7 @@ footer {
 
 @media (min-width: 414px) {
 
-	body {
-		height: 100vh;
-	}
+	
 	
 	h1 {
 		font-size: 2.2rem;
