@@ -107,7 +107,7 @@ footer {
 	}
 
 	.btn {
-		top: 250px;
+		top: 10em/* 250px */;
 	}
 	
 	.btn:hover {
