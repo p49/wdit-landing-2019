@@ -140,7 +140,7 @@ footer {
 	}
 	
 	.btn {
-		margin-top: 330px; /* was 305px -- check to see if this fits */
+		top: 300px; /* was 305px -- check to see if this fits */
 	}
 	
 	.btn:hover {
