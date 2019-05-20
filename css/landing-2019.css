@@ -175,7 +175,7 @@ footer {
 	
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 350px; /* was 325px*/
+		top: 325px;
 		padding: 1rem .9rem;
 	}
 	
