@@ -146,7 +146,7 @@ footer {
 	}
 	
 	.btn {
-		top: 300px; /* was 305px -- check to see if this fits */
+		top: 270px; /* was 305px -- check to see if this fits */
 	}
 	
 	.btn:hover {
@@ -155,7 +155,7 @@ footer {
 	}
 	
 	footer {
-		top: 150px;
+		top: 250px;
 		letter-spacing: 1px;
 	}
 }
