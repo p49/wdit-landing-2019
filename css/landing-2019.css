@@ -207,7 +207,7 @@ footer {
 		font-size: 1.8rem;
 		margin-top: 450px;
 		padding: 1rem .9rem;
-		color: orange;
+		color: #fff;
 	}
 	
 	.btn:hover {
@@ -247,7 +247,7 @@ footer {
 		
 	.btn {
 		font-size: 1.4rem;
-		margin-top: 400px;  /* was 400px*/
+		top: 300px;  /* was 400px*/
 		padding: 1rem .9rem;
 	}
 	
@@ -257,7 +257,7 @@ footer {
 	}
 	
 	footer {
-		top: 180px; /* was 100px*/
+		top: 190px; /* was 100px*/
 	}
 }
 
