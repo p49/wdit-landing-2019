@@ -243,7 +243,7 @@ footer {
 		
 	.btn {
 		font-size: 1.4rem;
-		top: 100px;  /* was 400px*/
+		top: 50px;  /* was 400px*/
 		padding: 1rem .9rem;
 	}
 	
