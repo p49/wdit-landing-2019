@@ -201,7 +201,7 @@ footer {
 	
 	.btn {
 		font-size: 1.8rem;
-		margin-top: 150px;
+		top: 150px;
 		padding: 1rem .9rem;
 		color: #fff;
 	}
@@ -218,7 +218,7 @@ footer {
 	
 	
 	footer {
-		top: 430px;
+		top: 420px;
 	}
 }
 
