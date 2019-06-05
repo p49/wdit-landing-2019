@@ -331,7 +331,7 @@ footer {
 	}
 	
 	footer {
-		top: 475px; /* was 130px */
+		top: 470px; /* was 130px */
 	}
 }
 
@@ -353,7 +353,7 @@ footer {
 	}
 	
 	.btn {
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 		position: relative;
 		top: 150px; /*top: 15px */
 		padding: .9rem .7rem;
