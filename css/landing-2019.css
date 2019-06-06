@@ -339,12 +339,13 @@ footer {
 @media (min-width: 991px) {
 	
 	h1 {
-		font-size: 4rem;
+		font-size: 5.5rem;
 		margin-top: 58px;
 	}
 	
 	h3 {
 		margin-top: 40px;
+		font-size: 1.5rem;
 	}
 	
 	hr {
