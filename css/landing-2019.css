@@ -187,8 +187,9 @@ footer {
 	}
 	
 	footer {
-		top: 440px;
+		top: 480px;
 		font-size: 20px;
+		letter-spacing: 1.2px;
 	}
 }
 
