@@ -138,12 +138,13 @@ footer {
 	}
 	
 	hr {
-		width: 7.2rem;
-		margin-top: -30px;
+		width: 9rem;
+		margin-top: -31px;
 	}
 	
 	.btn {
 		top: 300px; /* was 305px -- check to see if this fits */
+		font-size: 1.4rem
 	}
 	
 	.btn:hover {
