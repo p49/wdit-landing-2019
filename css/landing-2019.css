@@ -398,7 +398,7 @@ footer {
 	
 	.btn {
 		font-size: 1.5rem;
-		margin-top: 305px;
+		top: 160px;
 		padding: 1rem .9rem;
 	}
 	
@@ -408,6 +408,6 @@ footer {
 	}
 	
 	footer {
-		top: 180px;
+		top: 410px;
 	}
  }
