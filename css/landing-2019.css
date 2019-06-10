@@ -143,7 +143,7 @@ footer {
 	}
 	
 	.btn {
-		top: 250px; /* was 305px -- check to see if this fits */
+		top: 240px; /* was 305px -- check to see if this fits */
 		font-size: 1.4rem
 	}
 	
