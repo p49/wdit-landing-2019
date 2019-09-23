@@ -141,7 +141,7 @@ footer {
 	}
 	
 	.btn {
-		top: 300px; /* was 305px -- check to see if this fits */
+		top: 315px; /* was 305px -- check to see if this fits */
 		font-size: 1.4rem
 	}
 	
@@ -151,7 +151,7 @@ footer {
 	}
 	
 	footer {
-		top: 425px;
+		top: 450px;
 		letter-spacing: 1px;
 	}
 }
